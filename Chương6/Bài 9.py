@@ -1,0 +1,10 @@
+chuoi_1=input("Nhập chuỗi s1: ")
+chuoi_2=input("Nhập chuỗi s2: ")
+chuoi_3=input("Nhập chuỗi s3: ")
+index=input("Nhập index: ")
+
+print("Chiều dài chuỗi s1: ",len(chuoi_1))
+print("Chiều dài chuỗi s2: ",len(chuoi_2))
+print("Chiều dài chuỗi s3: ",len(chuoi_3))
+print("Chuỗi 4: ",chuoi_1[int(index):])
+print("Chuỗi 2 lặp lại 2 lần: ",chuoi_2*2)
